@@ -1,7 +1,7 @@
 # Smart Card
 A nRF54L15 based Bluetooth Tracker in a Credit Card sized package
 
-(https://github.com/dac63701/SmartCard/blob/main/review/SmartCard.png)
+![Smart Card PCBA](/review/SmartCard.png)
 
 The goal of this project was to create a small and slim Bluetooth tracker that would fit into a credit card enclosure. To do this, a 0.8mm thin 80mah battery was used along with a 0.8mm PCB. The device makes use of wireless charging with a BQ51013B so that it is easy to use and keep charged. There is also a custom battery charger and protection circuit. It uses a BQ298009 for protection and a BQ25100 for charging. Finally there is a TPS62840 for sourcing 1v8 from the battery and the antenna along with a matching network.
 
