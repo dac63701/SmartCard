@@ -6,8 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "Smart Card")
-		(date "2026-08-17")
+		(date "2026-08-25")
 		(rev "2")
+		(company "Serious Engineering")
 	)
 	(lib_symbols
 		(symbol "AMCA31-2R450G-S1F-T3:AMCA31-2R450G-S1F-T3"
@@ -5700,6 +5701,17 @@
 			)
 		)
 		(uuid "f9b4c8c0-aec7-47f2-a290-659dc2a3bb12")
+	)
+	(text "Smart Card"
+		(exclude_from_sim no)
+		(at 327.914 260.35 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(bold yes)
+			)
+		)
+		(uuid "facce6b9-e786-4ea4-b936-50b7e1c1c2a9")
 	)
 	(text_box "R444030-16F3-G"
 		(exclude_from_sim no)
