@@ -5777,6 +5777,12 @@
 		(uuid "1b7c7959-3686-47a5-88b9-a4bd9ec69896")
 	)
 	(junction
+		(at 147.32 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d946202-5ba5-4ca9-93da-4c39be73ee0e")
+	)
+	(junction
 		(at 48.26 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6211,6 +6217,10 @@
 	(no_connect
 		(at 129.54 223.52)
 		(uuid "574e498b-e384-4714-8178-20ef609b731a")
+	)
+	(no_connect
+		(at 129.54 220.98)
+		(uuid "5a5c74db-0a40-4f0f-94b6-f0d42b4cbe04")
 	)
 	(no_connect
 		(at 63.5 205.74)
@@ -6719,6 +6729,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 92.71) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f0fced-190d-4837-9a07-e90925f8c8c4")
+	)
+	(wire
+		(pts
 			(xy 161.29 203.2) (xy 161.29 205.74)
 		)
 		(stroke
@@ -7139,16 +7159,6 @@
 			(type default)
 		)
 		(uuid "46aa0920-26e6-46ed-8e9a-5cab0c0d198d")
-	)
-	(wire
-		(pts
-			(xy 129.54 220.98) (xy 132.08 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46fc1aa3-339c-49b9-9069-edc54b52c115")
 	)
 	(wire
 		(pts
@@ -12739,16 +12749,6 @@
 		)
 		(uuid "370d7173-ca81-43a2-a1e8-ca3361d7e6fe")
 	)
-	(label "EN1"
-		(at 132.08 220.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4085cd49-b0d5-470e-9205-ea2c1dc64532")
-	)
 	(label "FOD"
 		(at 125.73 113.03 270)
 		(effects
@@ -12778,16 +12778,6 @@
 			(justify right bottom)
 		)
 		(uuid "4463033e-4335-44bc-b053-fbf89b1a172d")
-	)
-	(label "EN1"
-		(at 147.32 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44b6fd59-5644-4890-a1fd-b7ec3ea37938")
 	)
 	(label "ANT"
 		(at 250.19 163.83 180)
